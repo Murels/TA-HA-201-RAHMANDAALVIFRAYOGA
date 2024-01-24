@@ -143,7 +143,10 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
         //     alert("Klik Tombol Batal");
         // })
         btn_batal.addEventListener('click', setRefresh);
-        
+
+        function setRefresh() {
+            location.href = "{{ url('/view') }}";
+        }
         function setFilterInput(e)
        {
             // inisialisasi variabel 
