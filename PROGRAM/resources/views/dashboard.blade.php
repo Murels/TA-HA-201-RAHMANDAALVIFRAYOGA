@@ -55,12 +55,7 @@
         <div id="body-temperature-chart"></div>
     </section>
 
-    <section id="date-picker">
-        <h2>Select Date Range</h2>
-        <!-- Tambahkan elemen HTML untuk Date Picker Range -->
-        <input type="date" id="start-date" name="start-date">
-        <input type="date" id="end-date" name="end-date">
-    </section>
+  
 
     <section id="selected-device-data">
         <h2>Selected Device Data</h2>
