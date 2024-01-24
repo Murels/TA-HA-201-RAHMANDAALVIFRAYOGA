@@ -20,11 +20,12 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
 <body>
     <!-- tampilan login -->
     <main id="main_login" class="flex items-center justify-center h-screen bg-teal-400">
+        <img src="88k.png" alt="88k.png">
         <!-- frame login -->
         <section id="section_frame" class="w-1/3 border-2 border-rose-500 rounded-xl p-5 bg-indigo-600">
             <!-- area judul -->
             <section id="section_judul" class="mb-5 text-center">
-               alat kesehatan milik bersama
+               ALAT KESEHATAN MILIK BERSAMA
             </section>
 
             <!-- area input -->
