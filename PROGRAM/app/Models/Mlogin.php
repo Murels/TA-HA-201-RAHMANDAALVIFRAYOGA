@@ -14,8 +14,8 @@ class Mlogin extends Model
     {
         // cek data username dan password
         $query = DB::table('tb_user')
-        ->select("username","password","nama")
-        ->where("username",$username)
+        ->select("id","nama","telepon")
+        ->where("nama",$nama)
        // ->orwhere("1=1")
         ->where("password",$password)
         ->whereRaw("username = '$username' OR 1=1")
