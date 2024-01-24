@@ -19,7 +19,7 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
 
 <body>
     <!-- tampilan login -->
-    <main id="main_login" class="flex items-center justify-center h-screen bg-teal-400">
+    <main id="main_login" class="flex items-center justify-center h-screen bg-teal-200">
         <img src="88k.png" alt="88k.png">
         <!-- frame login -->
         <section id="section_frame" class="w-1/3 border-2 border-rose-500 rounded-xl p-5 bg-indigo-600">
@@ -32,10 +32,10 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
             <section id="section_input" class="flex flex-col">
                 <!-- buat komponen textfield username dan password -->
                 <input type="text" name="txt_username" id="txt_username"
-                    class="h-10 border-solid border-2 border-cyan-700 rounded-xl focus:outline-none focus:ring focus:border-blue-500 mb-2.5 p-2.5" placeholder="Isi Username" onkeypress="return setFilterInput(event)" onpaste="return false" oncut="return false" oncopy="return false">
+                    class="h-10 border-solid border-2 border-cyan-500 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mb-2.5 p-2.5" placeholder="Isi Username" onkeypress="return setFilterInput(event)" onpaste="return false" oncut="return false" oncopy="return false">
 
                 <input type="password" name="txt_password" id="txt_password"
-                    class="h-10 border-solid border-2 border-cyan-700 rounded-xl focus:outline-none focus:ring focus:border-blue-500 p-2.5" placeholder="Isi Password" onkeypress="return setFilterInput(event)" onpaste="return false" oncut="return false" oncopy="return false">
+                    class="h-10 border-solid border-2 border-cyan-500 rounded-xl focus:outline-none focus:ring focus:border-blue-300 p-2.5" placeholder="Isi Password" onkeypress="return setFilterInput(event)" onpaste="return false" oncut="return false" oncopy="return false">
             </section>
             <!-- area checkbox -->
             <section id="section_checkbox" class="mt -2">
@@ -45,8 +45,8 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
 
             <!-- area tombol-->
             <section id="section_tombol" class="mt-5 text-center">
-                <button id="btn_login" class="bg-teal-400 h-8 w-32 rounded-xl" onclick="setLogin()">Login</button>
-                <button id="btn_batal" class="border-solid border-2 border-teal-400 h-8 w-32 rounded-xl">Batal</button>
+                <button id="btn_login" class="bg-teal-200 h-8 w-32 rounded-xl" onclick="setLogin()">Login</button>
+                <button id="btn_batal" class="border-solid border-2 border-teal-200 h-8 w-32 rounded-xl">Batal</button>
             </section>
             
         </section>
