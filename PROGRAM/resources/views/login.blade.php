@@ -50,9 +50,8 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
             
         </section>
     </main>
-
-    <!-- buat kode dengan js -->
-    <script>
+     <!-- buat kode dengan js -->
+     <script>
         // buat variabel untuk komponen
         // tahap deklarasi dan definisi
         let txt_username = document.getElementById("txt_username");
