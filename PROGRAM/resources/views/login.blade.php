@@ -40,7 +40,7 @@ header("Content-Security-Policy 'self' cdn.tailwindcss.com");
             <!-- area checkbox -->
             <section id="section_checkbox" class="mt -2">
                 <input type="checkbox" name="chk_ingat" id="chk_ingat">
-                <label for="chk_ingat">Ingat Saya</label>
+                <label for="chk_ingat">Ingatkan Saya</label>
             </section>
 
             <!-- area tombol-->
