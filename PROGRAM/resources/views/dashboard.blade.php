@@ -68,9 +68,7 @@
         <div id="selected-device-data-output"></div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Health Monitoring Dashboard</p>
-    </footer>
+    
 
     <!-- Tambahkan script JavaScript dan Plotly untuk grafik interaktif -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
