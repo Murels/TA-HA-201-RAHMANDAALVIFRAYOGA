@@ -37,11 +37,7 @@
         <h1>Health Monitoring Dashboard</h1>
     </header>
 
-    <section id="oxygen-saturation">
-        <h2>Oxygen Saturation</h2>
-        <!-- Tambahkan elemen HTML untuk grafik Saturasi Oksigen -->
-        <div id="oxygen-saturation-chart"></div>
-    </section>
+    
 
     <section id="heart-rate">
         <h2>Heart Rate</h2>
