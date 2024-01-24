@@ -24,12 +24,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
     <!-- Tambahkan stylesheet CSS sesuai kebutuhan -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitoring Dashboard</title>
     <header>
         <h1>Health Monitoring Dashboard</h1>
     </header>
